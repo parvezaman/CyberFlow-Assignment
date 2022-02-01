@@ -10,7 +10,7 @@ const Features = () => {
             {/* Upper section start           Upper section start                Upper section start */}
 
             <section className='row upper-section'>
-                <div className='col-md-6'>
+                <div className='col-lg-6'>
                     <div className='nav-container'>
                         <Navbar bg="primary" variant="dark" expand="lg">
                             <Container>
@@ -40,7 +40,7 @@ const Features = () => {
                     </div>
                 </div>
 
-                <div className='col-md-6 text-center'>
+                <div className='col-lg-6 text-center'>
                     <img className='img-fluid' src={navside} alt="" />
                 </div>
             </section>
