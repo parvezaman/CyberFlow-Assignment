@@ -2,14 +2,15 @@ import React from 'react';
 import { Container, Nav, Navbar, NavDropdown } from 'react-bootstrap';
 import navside from '../../../Resources/nav-side.png';
 import './Feature.css';
+import LowerPart from './LowerPart';
 
 const Features = () => {
     return (
         <>
             {/* Upper section start           Upper section start                Upper section start */}
 
-            <section className='d-md-flex justify-content upper-section'>
-                <div className='w-lg-50'>
+            <section className='row upper-section'>
+                <div className='col-md-6'>
                     <div className='nav-container'>
                         <Navbar bg="primary" variant="dark" expand="lg">
                             <Container>
@@ -32,22 +33,27 @@ const Features = () => {
                             </Container>
                         </Navbar>
                     </div>
-                    <Container className='nav-text'>
-                        <h1 className='ms-5'>Your site name</h1>
-                        <h3 className='ms-5'>Your slogan comes here</h3>
-                    </Container>
+                    <div className='ms-5'>
+                        <Container className='me-5 text-end nav-text'>
+                            <h1 className='me-5'>Your site name</h1>
+                            <h3 className='me-5'>Your slogan comes here</h3>
+                        </Container>
+                    </div>
                 </div>
 
-                <div className='w-lg-50 text-center'>
+                <div className='col-md-6 text-center'>
                     <img className='img-fluid' src={navside} alt="" />
                 </div>
             </section>
             {/* Upper section end           Upper section end                Upper section end */}
 
+
+
             {/* Lower section start                  Lower section start              Lower section start */}
 
 
 
+            <LowerPart />
 
 
 
