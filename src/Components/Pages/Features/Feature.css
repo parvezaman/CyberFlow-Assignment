@@ -1,0 +1,10 @@
+.upper-section{
+    background-color: royalblue;
+    height: 205px;
+}
+.nav-container{
+    width: 45rem;
+}
+.nav-text{
+    background-image: linear-gradient(to right, rgb(233, 160, 64) , rgb(255, 255, 246));;
+}
