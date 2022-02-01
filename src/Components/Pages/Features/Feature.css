@@ -1,6 +1,5 @@
 .upper-section{
     background-image: linear-gradient(to bottom, rgb(55, 83, 243) , rgb(123, 157, 253));
-    /* height: 205px; */
     padding: 15px;
 }
 .upper-bar{
@@ -9,15 +8,7 @@
 }
 .nav-text{
     background-image: linear-gradient(to right, rgb(233, 160, 64) , rgb(255, 255, 246));
-    height: 353px;
-}
-.nav-image{
-    width: 100%;
-    display: block;
-    height: 10px;
-}
-.nav-image-container{
-    /* height: ; */
+    height: px;
 }
 
 

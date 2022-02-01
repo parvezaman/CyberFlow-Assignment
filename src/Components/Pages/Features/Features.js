@@ -46,8 +46,8 @@ const Features = () => {
                     <div className='upper-bar'>
 
                     </div>
-                    <div className='text-center nav-image-container'>
-                        <img className='img-fluid nav-image' src={navside} alt="" />
+                    <div className='d-flex justify-content-center flex-wrap'>
+                        <img className='img-fluid' src={navside} alt="" />
                     </div>
                 </div>
             </section>
