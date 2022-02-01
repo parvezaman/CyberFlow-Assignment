@@ -1,5 +1,4 @@
 .upper-section{
-    /* background-color: royalblue; */
     background-image: linear-gradient(to bottom, rgb(55, 83, 243) , rgb(123, 157, 253));
     height: 205px;
 }
@@ -10,18 +9,21 @@
     background-image: linear-gradient(to right, rgb(233, 160, 64) , rgb(255, 255, 246));
 }
 
+
+
+
 /* Lower section CSS */
 
 .left-side{
     background-color: orange;
-    /* max-width: 35%; */
 }
+
+
 
 
 /* Footer CSS */
 .footer{
     background-image: linear-gradient(to bottom, rgb(55, 83, 243) , rgb(123, 157, 253));
-    /* padding: .05rem; */
     text-align: center;
     color: white;
 

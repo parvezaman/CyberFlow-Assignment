@@ -33,11 +33,11 @@ const LowerPart = () => {
 
                 <br />
 
-                <h3><span className='text-warning'>Buy Now</span> for Only $59.95! <a href="">Add to Cart</a> </h3>
+                <h3><span className='text-warning'>Buy Now</span> for Only $59.95! <a href="https://www.linkedin.com/in/md-amanullah-parvez-10a543207/">Add to Cart</a> </h3>
 
-                <br /><br />
+                <br />
 
-                <p>Smart Webby offers professional web templates at affordable prices. Choose from a variety of high quality website designs to find the perfect template for your line of business. <a href="">More temnlates from smartwebbv.com</a>  </p>
+                <p>Smart Webby offers professional web templates at affordable prices. Choose from a variety of high quality website designs to find the perfect template for your line of business. <a href="https://www.linkedin.com/in/md-amanullah-parvez-10a543207/">More temnlates from smartwebbv.com</a>  </p>
             </div>
         </section>
     );
