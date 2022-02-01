@@ -32,16 +32,23 @@ const Features = () => {
                             </Container>
                         </Navbar>
                     </div>
-                    <div className='ms-5'>
-                        <Container className='me-5 text-end nav-text'>
-                            <h1 className='me-5'>Your site name</h1>
-                            <h3 className='me-5'>Your slogan comes here</h3>
+                    <div>
+                        <Container className='me-5 text-end nav-text d-flex justify-content-center align-items-center'>
+                            <div>
+                                <h1 className='me-5'>Your site name</h1>
+                                <h3 className='me-5'>Your slogan comes here</h3>
+                            </div>
                         </Container>
                     </div>
                 </div>
 
-                <div className='col-lg-6 text-center'>
-                    <img className='img-fluid' src={navside} alt="" />
+                <div className='col-lg-6'>
+                    <div className='upper-bar'>
+
+                    </div>
+                    <div className='text-center nav-image-container'>
+                        <img className='img-fluid nav-image' src={navside} alt="" />
+                    </div>
                 </div>
             </section>
             {/* Upper section end           Upper section end                Upper section end */}

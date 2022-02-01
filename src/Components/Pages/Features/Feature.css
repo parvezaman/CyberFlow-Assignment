@@ -3,10 +3,22 @@
     /* height: 205px; */
     padding: 15px;
 }
+.upper-bar{
+    padding: 15px;
+    background-color: orange;
+}
 .nav-text{
     background-image: linear-gradient(to right, rgb(233, 160, 64) , rgb(255, 255, 246));
+    height: 353px;
 }
-
+.nav-image{
+    width: 100%;
+    display: block;
+    height: 10px;
+}
+.nav-image-container{
+    /* height: ; */
+}
 
 
 
